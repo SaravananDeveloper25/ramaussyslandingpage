@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ramaussyslandingpage/static/css/main.f855e6bc.css",
-    "main.js": "/ramaussyslandingpage/static/js/main.6221ab52.js",
-    "static/js/453.b746bd05.chunk.js": "/ramaussyslandingpage/static/js/453.b746bd05.chunk.js",
-    "static/media/logo.svg": "/ramaussyslandingpage/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/ramaussyslandingpage/static/css/main.92b2894b.css",
+    "main.js": "/ramaussyslandingpage/static/js/main.1795875b.js",
+    "static/media/Gradient-background.png": "/ramaussyslandingpage/static/media/Gradient-background.31c373f342f2eac770d9.png",
+    "static/media/banner-image.png": "/ramaussyslandingpage/static/media/banner-image.548e0b5b880a2edd6d31.png",
+    "static/media/logo.png": "/ramaussyslandingpage/static/media/logo.fae24527f4aa16d288fa.png",
     "index.html": "/ramaussyslandingpage/index.html",
-    "main.f855e6bc.css.map": "/ramaussyslandingpage/static/css/main.f855e6bc.css.map",
-    "main.6221ab52.js.map": "/ramaussyslandingpage/static/js/main.6221ab52.js.map",
-    "453.b746bd05.chunk.js.map": "/ramaussyslandingpage/static/js/453.b746bd05.chunk.js.map"
+    "main.92b2894b.css.map": "/ramaussyslandingpage/static/css/main.92b2894b.css.map",
+    "main.1795875b.js.map": "/ramaussyslandingpage/static/js/main.1795875b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.6221ab52.js"
+    "static/css/main.92b2894b.css",
+    "static/js/main.1795875b.js"
   ]
 }

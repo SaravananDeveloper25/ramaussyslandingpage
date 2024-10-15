@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    height: 130vh;
+    background-image: url(../../images/Gradient-background.png);
+    background-size: cover;
+    display: flex;
+    align-items:end;
+}
+.banner-content{
+    width: 600px;
+    text-align: left;
+    padding: 30px;
+}
+.banner-content>h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #0B2F9F;
+
+}
+.banner-content>p{
+    padding: 10px;
+    font-size: 20px;
+}
+.banner-content>button{
+    padding: 20px 24px;
+    background: linear-gradient(90deg, #2918A0 0%, #A56AFC 100%);
+    border: none;
+    border-radius: 10px;
+}
+.banner-last{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+.offer-box,.offer-box4,.offer-box2{
+    width: 402px;
+    background-color: #0B2F9F1A;
+    margin-bottom: 20px;
+    padding: 20px 24px;
+}
+.cole{
+    display: flex !important;
+    justify-content: end !important;
+}
+.offers{
+    position: relative;
+}
+.offers::before{
+    content: url(../../images/down-arrow.png);
+    position: absolute;
+    right: -20px;
+}
+@media (min-width:1300px) {
+    .Banner{
+        height: 130vh;
+    }
+    .banner{
+        height: 110vh;
+        align-items:center;
+    }
+}

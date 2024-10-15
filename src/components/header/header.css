@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header{
+    height:140px;
+    width: 100%;
+    position: fixed;
+}
+.head{
+    height:100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo>img{
+    width: 120px;
+}
+.nav>ul{
+    display: flex;
+}   
+
+.nav>ul>li{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.nav>ul>li:hover{
+    color: red;
+    cursor: pointer;
+}
+.hbtn>button{
+    padding: 20px 24px;
+    background-color: #FFA500;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}

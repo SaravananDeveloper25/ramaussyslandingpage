@@ -4,7 +4,7 @@
 }
 
 .banner{
-    height: 130vh;
+    height: 100vh;
     background-image: url(../../images/Gradient-background.png);
     background-size: cover;
     display: flex;
@@ -36,24 +36,65 @@
     display: flex;
     align-items: center;
 }
-.offer-box,.offer-box4,.offer-box2{
-    width: 402px;
-    background-color: #0B2F9F1A;
-    margin-bottom: 20px;
-    padding: 20px 24px;
-}
-.cole{
-    display: flex !important;
-    justify-content: end !important;
-}
 .offers{
     position: relative;
 }
 .offers::before{
     content: url(../../images/down-arrow.png);
     position: absolute;
-    right: -20px;
+    right: 10px;
+    top: -50px;
 }
+.offers::after{
+    content: url(../../images//uparrow.png);
+    position: absolute;
+    left: -10px;
+    bottom: -50px;
+}
+.offer-box{
+    margin: 4rem 5rem;
+    
+}
+.cole{
+    display: flex !important;
+    justify-content: start !important;
+    align-items: end;
+    height: 500px;
+}
+.cole1{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    height: 400px;
+}
+.offer-boxx{
+    padding: 80px 40px;
+    width: 444px;
+    background-color: #0B2F9F1A;
+    border-radius: 10px;
+    transition: 0.5s all;
+}
+.offer-boxx>h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+.offer-boxx:hover {
+    background-color: #0B2F9F;
+    color: #fff;
+}
+.offer-img{
+    transform: scale(1);
+    padding: 24px;
+    transition: 0.5s all;
+
+}
+.offer-boxx:hover .offer-img{
+    transform: scale(1.5);
+}
+.offer-boxx>p{
+    text-align: justify;
+}
+
 @media (min-width:1300px) {
     .Banner{
         height: 130vh;

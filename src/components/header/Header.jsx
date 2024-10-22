@@ -20,7 +20,7 @@ function Header() {
         };
       }, []);
   return (
-    <div className='header'>
+    <div className={header?'whitehead':'header'}>
         <div className='head'>
             <div className='logo'>
                 <img src={logo} alt="" />

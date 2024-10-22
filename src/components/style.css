@@ -1,0 +1,159 @@
+.pf-titles{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.pf-title{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #0B2F9F1A;
+    align-items: center;
+    padding: 20px;
+    border-radius: 50px;
+}
+.pf-title h3 {
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #0b2f9f;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .pf-title h3.active-title {
+    background-color: #0b2f9f;
+    color: #fff;
+  }
+  
+  /* Fade-out and fade-in transitions */
+  .pf-pro {
+    margin-top:2rem;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .pf-pro.fade-out {
+    opacity: 0;
+  }
+  
+  .pf-pro.fade-in {
+    opacity: 1;
+  }
+  .review{
+    margin-top: 2rem;
+  }
+  .reviews{
+    margin-top: 2rem;
+  }
+  .review-box{
+    background-color: #0B2F9F1A;
+    margin: 0 10px;
+    padding: 20px 24px;
+    text-align: left;
+    border-radius: 10px;
+  }
+
+.db{
+    margin-top: 2rem;
+}
+.review-p{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.review-p p{
+  margin: 0;
+}
+.review-p p:first-child{
+  font-size: 20px;
+  font-weight: 700;
+}
+.abottons{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-end;
+
+}
+.abottons div{
+  display: flex;
+  gap: 10px;
+}
+.Enquiry{
+  margin-top: 2rem;
+}
+.enqiry{
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+}
+.enqiry h3{
+  font-size: 36px;
+  font-weight: 700;
+}
+.form{
+  background: linear-gradient(180deg, #0B2F9F 0%, #2343D3 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  text-align: left;
+  width: 800px;
+  padding: 50px 80px;
+  color: #fff;
+}
+.form h3{
+  text-align: center;
+}
+.form form{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 10px;
+  
+
+}
+.form form>label,input,select,textarea,button{
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.form-button{
+  display: flex;
+  justify-content: center;
+}
+.form form .form-button>button{
+  background-color: #FFA500;
+  border: none;
+  width: 164px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+.contact{
+  position: absolute;
+  left: 10%;
+  margin-top:10% ;
+  background-color: #FFA500;
+  height: 550px;
+  padding: 30px 44px ;
+  border-radius: 10px;
+}
+.a{
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+@media (max-width:950px) {
+    .db img{
+        width: 80%;
+    }
+}
+
+@media (max-width:450px) {
+    .db img{
+        width: 70%;
+    }
+}

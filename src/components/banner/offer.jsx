@@ -6,14 +6,14 @@ import ua from '../../images/uparrow.png'
 import da from '../../images/down-arrow.png'
 import ur from '../../images/User Research & Analysis.png'
 import vd from '../../images/Interaction Design.png'
-import wf from '../../images/intraction.png'
+import wf from '../../images/Wireframing.png'
 import id from '../../images/image.png'
 
 function offer() {
   return (
     <div className='offer'>
         <div className='offer-head'>
-        <h1>What We Offer</h1>
+        <h2>What We Offer</h2>
         <img src={ul} alt="" style={{marginLeft:'4rem'}}/>
         </div>
         <section></section>
@@ -40,14 +40,14 @@ function offer() {
                             <Row>
                             <Col className='cole1'>
                                 <div className='offer-boxx'>
-                                    <img src={wf} alt="" className="offer-img" />
+                                    <img src={wf} alt="id" className="offer-img" />
                                     <h3>Wireframing</h3>
                                     <p>Our team creates detailed wireframes and interactive prototypes that give you a clear view of your digital product before development begins. This helps to visualize the user flow and gather early feedback, saving time and resources in the long run.</p>
                                 </div>
                             </Col>
                             <Col  className='cole'>
                                 <div  className='offer-boxx' >
-                                    <img src={id} alt="" className="offer-img" />
+                                    <img src={id} alt="id" className="offer-img" />
                                     <h3>Interaction Design</h3>
                                     <p>Our team designs interactions that feel intuitive and effortless, creating a seamless connection between users and the interface. Every click, swipe, and tap is carefully crafted to enhance the user experience.</p>
                                 </div>

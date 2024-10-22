@@ -5,8 +5,18 @@
 }
 .header{
     height:140px;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+
+}
+.whitehead{
+    height:140px;
     width: 100%;
     position: fixed;
+    z-index: 3;
+    background-color: #fff;
+    color: black;
 }
 .head{
     height:100px;
@@ -19,6 +29,7 @@
 }
 .nav>ul{
     display: flex;
+
 }   
 
 .nav>ul>li{
@@ -36,4 +47,18 @@
     border: none;
     font-size: 20px;
     font-weight: 700;
+}
+
+@media (max-width:450px) {
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+    .nav,.hbtn,.whitehead{
+        display: none;
+
+    }
+
 }

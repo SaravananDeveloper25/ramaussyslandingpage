@@ -31,6 +31,9 @@
     border: none;
     border-radius: 10px;
 }
+.banner-img>img{
+    width: 650px;
+}
 .banner-last{
     height: 20vh;
     display: flex;
@@ -102,5 +105,28 @@
     .banner{
         height: 110vh;
         align-items:center;
+    }
+}
+@media (max-width:450px) {
+    .banner{
+        height: 100vh;
+    }
+    .banner-content{
+        text-align: center;
+        width:90%;
+    }
+    .banner-content>h2{
+        font-size: 32px;
+        
+    }
+    .banner-content>p{
+        font-size: 12px;
+    }
+    .banner-img>img{
+        width: 50%;
+    }
+    .banner-col{
+        display: flex;
+        justify-content: center;
     }
 }

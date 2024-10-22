@@ -1,0 +1,21 @@
+.footer{
+    height: 80vh;
+    background-color: black;
+    margin-top: 2rem;
+    background-image: url(../../images/Wave.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer>p{
+    padding: 20px 80px;
+}
+.bottom{
+    text-align: left;
+}

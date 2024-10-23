@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ramaussyslandingpage/static/css/main.9e09d6ce.css",
-    "main.js": "/ramaussyslandingpage/static/js/main.b2df9334.js",
+    "main.css": "/ramaussyslandingpage/static/css/main.3acc40d9.css",
+    "main.js": "/ramaussyslandingpage/static/js/main.ab9f5f1d.js",
     "static/media/Gradient-background.png": "/ramaussyslandingpage/static/media/Gradient-background.31c373f342f2eac770d9.png",
     "static/media/pf3.png": "/ramaussyslandingpage/static/media/pf3.c54ee4f39b2b8e3e1fa9.png",
     "static/media/portfolio-2.png": "/ramaussyslandingpage/static/media/portfolio-2.42a00efbcea8ccb869a7.png",
@@ -15,11 +15,11 @@
     "static/media/slick.ttf": "/ramaussyslandingpage/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ramaussyslandingpage/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ramaussyslandingpage/index.html",
-    "main.9e09d6ce.css.map": "/ramaussyslandingpage/static/css/main.9e09d6ce.css.map",
-    "main.b2df9334.js.map": "/ramaussyslandingpage/static/js/main.b2df9334.js.map"
+    "main.3acc40d9.css.map": "/ramaussyslandingpage/static/css/main.3acc40d9.css.map",
+    "main.ab9f5f1d.js.map": "/ramaussyslandingpage/static/js/main.ab9f5f1d.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e09d6ce.css",
-    "static/js/main.b2df9334.js"
+    "static/css/main.3acc40d9.css",
+    "static/js/main.ab9f5f1d.js"
   ]
 }

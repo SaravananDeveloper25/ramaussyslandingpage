@@ -1,13 +1,13 @@
 import React,{useRef} from 'react'
-import ul from './images/Vector 1.png'
+import ul from '../images/Vector 1.png'
 import { Container,Row,Col } from 'react-bootstrap'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
-import la from '../src/images/left-arrow.png'
-import ra from '../src/images/right-arrow.png'
-import qu from './images/Qu.png'
-import vishal from './images/vishal.png'
+import la from '../images/left-arrow.png'
+import ra from '../images/right-arrow.png'
+import qu from '../images/Qu.png'
+import vishal from '../images/vishal.png'
 
 
 function Review() {
@@ -83,7 +83,7 @@ function Review() {
 
   ]
   return (
-    <div className='reviews'>
+    <div className='reviews' id='review'>
         <h2>Client Testimonial</h2>
         <img src={ul} alt="" style={{ marginLeft: '4rem' }} />
         <div className="reviews">

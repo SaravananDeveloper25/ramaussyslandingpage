@@ -5,7 +5,7 @@ import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 function Enquiry() {
   return (
-    <div className='Enquiry'>
+    <div className='Enquiry' id='contact'>
         <Container>
             <div className="enqiry">
                 <div className="form">

@@ -9,18 +9,18 @@ import xd from '../../images/xd.png'
 import Offer from './offer'
 function Banner() {
   return (
-    <div className='Banner'>
+    <div className='Banner' id='home'>
         <div className='banner'>
             <Container>
                 <Row>
-                    <Col lg={6} sm={12} className='banner-col'>
+                    <Col lg={6} sm={12} md={6} className='banner-col'>
                       <div className='banner-content'>
                         <h2>Transforming Ideas Into Intuitive Digital  <br /> Journeys</h2>
                         <p>From wireframes to full-scale prototypes, we ensure every interaction enhances user satisfaction and meets your business goals.</p>
                         <button>Get a Free Consultation</button>
                       </div>
                     </Col>
-                    <Col lg={6} sm={12}>
+                    <Col lg={6} sm={12} md={6} className='cle'>
                       <div className='banner-img'>
                         <img src={bi} alt=""/>
                       </div>

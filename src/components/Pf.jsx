@@ -24,7 +24,7 @@ function Pf() {
   };
 
   return (
-    <div className="pf">
+    <div className="pf" id="pf">
       <h2>Our Portfolio</h2>
       <img src={ul} alt="" style={{ marginLeft: '4rem' }} />
       <div className="pf-titles">
@@ -55,15 +55,15 @@ function Pf() {
           <Container>
             <Row>
               <Col>
-                <img src={pf1} alt="" />
+                <img src={pf1} alt="" className='pf-img'/>
                 <h3 style={{ margin: '2rem 0' }}>Bank</h3>
               </Col>
               <Col>
-                <img src={pf2} alt="" />
+                <img src={pf2} alt="" className='pf-img'/>
                 <h3 style={{ margin: '2rem 0' }}>Furniture</h3>
               </Col>
               <Col>
-                <img src={pf3} alt="" />
+                <img src={pf3} alt="" className='pf-img'/>
                 <h3 style={{ margin: '2rem 0' }}>Travel</h3>
               </Col>
             </Row>
@@ -73,15 +73,15 @@ function Pf() {
           <Container>
             <Row>
               <Col>
-                <img src={pf1} alt="" />
+                <img src={pf1} alt="" className='pf-img'/>
                 <h3 style={{ margin: '2rem 0' }}>Bank</h3>
               </Col>
               <Col>
-                <img src={pf3} alt="" />
+                <img src={pf3} alt="" className='pf-img'/>
                 <h3 style={{ margin: '2rem 0' }}>Travel</h3>
               </Col>
               <Col>
-                <img src={pf2} alt="" />
+                <img src={pf2} alt="" className='pf-img' />
                 <h3 style={{ margin: '2rem 0' }}>Furniture</h3>
               </Col>
             </Row>
@@ -91,15 +91,15 @@ function Pf() {
           <Container>
             <Row>
               <Col>
-                <img src={pf2} alt="" />
+                <img src={pf2} alt="" className='pf-img'/>
                 <h3 style={{ margin: '2rem 0' }}>Furniture</h3>
               </Col>
               <Col>
-                <img src={pf1} alt="" />
+                <img src={pf1} alt="" className='pf-img'/>
                 <h3 style={{ margin: '2rem 0' }}>Bank</h3>
               </Col>
               <Col>
-                <img src={pf3} alt="" />
+                <img src={pf3} alt="" className='pf-img'/>
                 <h3 style={{ margin: '2rem 0' }}>Travel</h3>
               </Col>
             </Row>
@@ -107,7 +107,7 @@ function Pf() {
         )}
       </div>
 
-      <div style={{ marginTop: '2rem' }}>
+      <div style={{ marginTop: '2rem' }} id='process'>
         <h2>Design Process</h2>
         <img src={ul} alt="" style={{ marginLeft: '4rem' }} />
         <div className="db">

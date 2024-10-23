@@ -27,11 +27,11 @@ function Header() {
             </div>
             <div className='nav'>
                 <ul>
-                    <li>Home</li>
-                    <li>Protfolio</li>
-                    <li>Process</li>
-                    <li>Reviews</li>
-                    <li>Contact</li>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#pf">protfolio</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#review">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <div className='hbtn'>

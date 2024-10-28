@@ -52,11 +52,13 @@
 }
 
 @media (max-width:450px) {
+
     .header{
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100vw;
+        
     }
     .nav,.hbtn,.whitehead{
         display: none;

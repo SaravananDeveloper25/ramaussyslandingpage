@@ -19,3 +19,17 @@
 .bottom{
     text-align: left;
 }
+
+@media (max-width:450px) {
+    .footer>p{
+        padding: 10px 40px;
+    }
+    .footer{
+        height: 70vh;
+        font-size: 80%;
+        background-size: 1500px;
+        padding: 10px 40px;
+
+
+    }
+}

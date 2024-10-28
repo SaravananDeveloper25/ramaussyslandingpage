@@ -3,6 +3,7 @@ import { Container,Row,Col } from 'react-bootstrap'
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import './style.css'
 function Enquiry() {
   return (
     <div className='Enquiry' id='contact'>

@@ -16,7 +16,7 @@ function Banner() {
                     <Col lg={6} sm={12} md={6} className='banner-col'>
                       <div className='banner-content'>
                         <h2>Transforming Ideas Into Intuitive Digital  <br /> Journeys</h2>
-                        <p>From wireframes to full-scale prototypes, we ensure every interaction enhances user satisfaction and meets your business goals.</p>
+                        <p>Ramasuusys Technologies places the utmost importance on design. Our understanding of design is that it is not just about the visual appeal alone. Rather, it entails creating an effortless engagement between users and brands.</p>
                         <button>Get a Free Consultation</button>
                       </div>
                     </Col>
@@ -31,20 +31,20 @@ function Banner() {
   
         <div className='banner-last'>
           <Container>
-          <Row>
+          <Row >
             <Col>
               <img src={ai} alt="" />
               <h4></h4>
             </Col>
-            <Col>
+            <Col >
               <img src={figma} alt="" />
               <h4></h4>
             </Col>
-            <Col>
+            <Col  >
               <img src={ps} alt="" />
               <h4></h4>
             </Col>
-            <Col>
+            <Col  >
               <img src={xd} alt="" />
               <h4></h4>
             </Col>

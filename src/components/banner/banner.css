@@ -127,11 +127,12 @@
 }
 @media (max-width:450px) {
     .banner{
-        height: 90vh;
+        height: 80vh;
     }
     .banner-content{
         text-align: center;
         width:90%;
+        padding: 0 10px;
     }
     .banner-content>h2{
         font-size: 32px;
@@ -174,5 +175,8 @@
         background-color: #0B2F9F1A;
         border-radius: 10px;
         transition: 0.5s all;
+    }
+    .banner-content>button{
+        padding: 10px 12px;
     }
 }

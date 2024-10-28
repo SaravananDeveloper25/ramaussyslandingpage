@@ -20,6 +20,7 @@ function Review() {
     autoplaySpeed: 5000, 
     slidesToShow: 3,
     slidesToScroll: 1,
+    arrows: false, // Hides next and previous buttons
     responsive: [
       {
         breakpoint: 768,
@@ -93,7 +94,7 @@ function Review() {
             return (
               <div key={review.name}>
                 <Row>
-                  <Col>
+                  <Col className='review-col'>
                   <div className='review-box'>
                     <div>
                       <img src={qu} alt="" />
